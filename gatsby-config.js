@@ -4,7 +4,7 @@ require('dotenv').config()
 module.exports = {
   siteMetadata: {
     title: 'Online Ofertas',
-    titleTemplate: 'Seleção | %s ',
+    titleTemplate: 'Online Ofertas | %s ',
     description: 'As melhores ofertas da internet estão aqui!',
     author: 'NoticiasComOFF',
     url: 'https://onlineofertas.com/', // No trailing slash allowed!
