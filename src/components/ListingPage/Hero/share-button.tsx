@@ -85,7 +85,7 @@ const ShareButton: React.FC<Props> = ({ siteData, theme, outlineColor }) => {
         onMouseOver={() => setIsOpen(true)}
         onMouseOut={() => setIsOpen(false)}
       >
-        Compartilhe!
+        Compartilhe
         <i className="fas fa-share-alt ml-2"></i>
       </a>
       <div
