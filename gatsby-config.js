@@ -32,7 +32,7 @@ module.exports = {
         apiKey: process.env.GATSBY_GOOGLE_CREDENTIALS,
         spreadsheetUrl: process.env.GATSBY_SHEET_URL,
         tabName: 'listing',
-        cellRange: 'A1:H1000',
+        cellRange: 'A1:H3000',
         majorDimension: 'ROWS',
       },
     },
