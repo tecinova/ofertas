@@ -3,13 +3,13 @@ require('dotenv').config()
 /* eslint-disable @typescript-eslint/camelcase */
 module.exports = {
   siteMetadata: {
-    title: 'WebSheets',
-    titleTemplate: 'Online Ofertas | %s ',
-    description: 'Create listing websites with Google Sheets data',
-    author: 'sohafidz',
-    url: 'https://websheets.co', // No trailing slash allowed!
+    title: 'Online Ofertas',
+    titleTemplate: 'Seleção | %s ',
+    description: 'As melhores ofertas da internet estão aqui!',
+    author: 'NoticiasComOFF',
+    url: 'https://onlineofertas.com/', // No trailing slash allowed!
     image: '/app-banner.png', // Path to your image you placed in the 'static' folder
-    twitterUsername: 'sohafidz',
+    twitterUsername: 'NoticiasComOFF',
   },
   plugins: [
     `gatsby-plugin-postcss`,
@@ -51,8 +51,8 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `WebSheets`,
-        short_name: `WebSheets`,
+        name: `Online Ofertas`,
+        short_name: `Online Ofertas`,
         start_url: `/`,
         background_color: `#049663`,
         theme_color: `#049663`,
