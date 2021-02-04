@@ -54,8 +54,8 @@ module.exports = {
         name: `Online Ofertas`,
         short_name: `Online Ofertas`,
         start_url: `/`,
-        background_color: `#049663`,
-        theme_color: `#049663`,
+        background_color: `#E53E3E`,
+        theme_color: `#E53E3E`,
         display: `standalone`,
         icon: `static/app-icon.png`, // This path is relative to the root of the site.
       },
