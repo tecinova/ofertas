@@ -24,7 +24,7 @@ export const transformSiteData = (rawSiteData): SiteData => {
   } = rawSiteData
 
   return {
-    siteName: siteName || 'Online Ofertas',
+    siteName: siteName || 'Ofertas TECiNOVA',
     siteLogo,
     sitePrimaryColor: sitePrimaryColor || 'teal',
     darkMode: darkMode === 'true',
