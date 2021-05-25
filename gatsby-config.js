@@ -3,11 +3,11 @@ require('dotenv').config()
 /* eslint-disable @typescript-eslint/camelcase */
 module.exports = {
   siteMetadata: {
-    title: 'Online Ofertas',
-    titleTemplate: 'Online Ofertas | %s ',
+    title: 'Ofertas TECiNOVA',
+    titleTemplate: 'Ofertas TECiNOVA | %s ',
     description: 'As melhores ofertas da internet estão aqui!',
     author: 'NoticiasComOFF',
-    url: 'https://onlineofertas.com/', // No trailing slash allowed!
+    url: 'https://ofertas.tecinovaservicos.com.br/', // No trailing slash allowed!
     image: '/app-banner.png', // Path to your image you placed in the 'static' folder
     twitterUsername: 'NoticiasComOFF',
   },
