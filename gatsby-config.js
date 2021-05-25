@@ -51,8 +51,8 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `Online Ofertas`,
-        short_name: `Online Ofertas`,
+        name: `Ofertas TECiNOVA`,
+        short_name: `Ofertas TECiNOVA`,
         start_url: `/`,
         background_color: `#E53E3E`,
         theme_color: `#E53E3E`,
