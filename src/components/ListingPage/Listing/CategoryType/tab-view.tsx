@@ -13,7 +13,7 @@ interface Props {
 
 const TabView: React.FC<Props> = ({ items, categories, theme, siteData, handleSearch }) => {
   const { text, altBackground, secondary } = theme
-  const ALL = ''
+  const ALL = 'todas'
   const tabs = [ALL, ...categories]
   const [currentTab, setCurrentTab] = useState(tabs[0])
 
