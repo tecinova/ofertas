@@ -15,7 +15,7 @@ const ShareButton: React.FC<Props> = ({ siteData, theme, outlineColor }) => {
 
   const hasWindow = typeof window !== 'undefined'
 
-  const siteUrl = hasWindow ? window.location.href : 'https://ofertas.tecinovaservicos.com.br/'
+  const siteUrl = hasWindow ? window.location.href : 'https://onlineofertas.com/'
 
   const [isOpen, setIsOpen] = useState(false)
 
