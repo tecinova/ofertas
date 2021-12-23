@@ -10,7 +10,7 @@ interface Props {
 }
 
 const Footer: React.FC<Props> = ({ siteData, theme }) => {
-  const { facebookUrl, twitterUrl, instagramUrl, footerLabel } = siteData
+  const { pinterestUrl, facebookUrl, twitterUrl, instagramUrl, footerLabel } = siteData
   const { primary, subtext } = theme
 
   const renderSocialMediaLinks = () => {
@@ -26,6 +26,10 @@ const Footer: React.FC<Props> = ({ siteData, theme }) => {
       {
         faClass: 'fa-instagram',
         url: instagramUrl,
+      },
+      {
+        faClass: 'fa-pinterest',
+        url: pinterestUrl,
       },
     ]
 
