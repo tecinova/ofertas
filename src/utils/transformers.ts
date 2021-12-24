@@ -21,6 +21,7 @@ export const transformSiteData = (rawSiteData): SiteData => {
     facebookUrl,
     instagramUrl,
     twitterUrl,
+    pinterestUrl,
   } = rawSiteData
 
   return {
@@ -43,6 +44,7 @@ export const transformSiteData = (rawSiteData): SiteData => {
     facebookUrl,
     instagramUrl,
     twitterUrl,
+    pinterestUrl,
   }
 }
 
