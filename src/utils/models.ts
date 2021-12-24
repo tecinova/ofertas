@@ -28,6 +28,7 @@ export interface SiteData {
   facebookUrl: string
   instagramUrl: string
   twitterUrl: string
+  pinterestUrl: string
 }
 
 export interface SheetsData {
