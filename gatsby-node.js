@@ -32,6 +32,7 @@ exports.createSchemaCustomization = ({ actions }) => {
       facebookUrl: String
       instagramUrl: String
       twitterUrl: String
+      pinterestUrl: String
     }
   `
   createTypes(listingSheetsDataTypeDefs)
