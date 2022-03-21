@@ -43,7 +43,7 @@ const ShareButton: React.FC<Props> = ({ siteData, theme, outlineColor }) => {
       {
         name: 'Facebook',
         faClass: 'fa-facebook',
-        url: `https://www.facebook.com/sharer/sharer.php?u=${siteUrl}`,
+        url: `https://www.facebook.com/sharer/sharer.php?u=https://ofertas.tecinovaservicos.com.br/`,
       },
       {
         name: 'Twitter',
