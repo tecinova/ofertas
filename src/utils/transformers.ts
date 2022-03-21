@@ -21,11 +21,10 @@ export const transformSiteData = (rawSiteData): SiteData => {
     facebookUrl,
     instagramUrl,
     twitterUrl,
-    pinterestUrl,
   } = rawSiteData
 
   return {
-    siteName: siteName || 'Ofertas TECiNOVA',
+    siteName: siteName || 'OFERTAS',
     siteLogo,
     sitePrimaryColor: sitePrimaryColor || 'teal',
     darkMode: darkMode === 'true',
@@ -44,7 +43,6 @@ export const transformSiteData = (rawSiteData): SiteData => {
     facebookUrl,
     instagramUrl,
     twitterUrl,
-    pinterestUrl,
   }
 }
 
