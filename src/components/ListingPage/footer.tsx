@@ -20,7 +20,7 @@ const Footer: React.FC<Props> = ({ siteData, theme }) => {
         url: facebookUrl,
       },
       {
-        faClass: 'fa-twitter',
+        faClass: 'fa-whatsapp',
         url: twitterUrl,
       },
       {
