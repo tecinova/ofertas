@@ -59,7 +59,7 @@ const Footer: React.FC<Props> = ({ siteData, theme }) => {
       <p className="text-center text-gray-600">
         By{' '}
         <OutboundLink
-          href=""
+          href="https://tecinovaservicos.com.br/"
           target="_blank"
           rel="noreferrer"
           className="hover:font-semibold underline"
