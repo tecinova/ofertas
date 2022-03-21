@@ -149,7 +149,6 @@ export const siteData = graphql`
       facebookUrl
       instagramUrl
       twitterUrl
-      pinterestUrl
     }
     allListingSheetsData {
       nodes {
