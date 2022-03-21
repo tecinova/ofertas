@@ -3,13 +3,13 @@ require('dotenv').config()
 /* eslint-disable @typescript-eslint/camelcase */
 module.exports = {
   siteMetadata: {
-    title: 'Online Ofertas',
+    title: 'Ofertas',
     titleTemplate: ' %s ',
     description: '',
-    author: 'leriabot',
-    url: 'https://onlineofertas.com/', // No trailing slash allowed!
+    author: 'tecinova',
+    url: 'https://ofertas.tecinovaservicos.com.br/', // No trailing slash allowed!
     image: '/app-banner.png', // Path to your image you placed in the 'static' folder
-    twitterUsername: 'leriabot',
+    twitterUsername: '',
   },
   plugins: [
     `gatsby-plugin-postcss`,
