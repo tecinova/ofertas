@@ -15,8 +15,7 @@ const ShareButton: React.FC<Props> = ({ siteData, theme, outlineColor }) => {
 
   const hasWindow = typeof window !== 'undefined'
 
-  const siteUrl = hasWindow ? window.location.href : 'https://ofertas.tecinovaservicos.com.br/'
-
+  const siteUrl = hasWindow ? window.location.href:'https://ofertas.tecinovaservicos.com.br/'
   const [isOpen, setIsOpen] = useState(false)
 
   const navigatorShare = () => {
@@ -43,7 +42,7 @@ const ShareButton: React.FC<Props> = ({ siteData, theme, outlineColor }) => {
       {
         name: 'Facebook',
         faClass: 'fa-facebook',
-        url: `https://www.facebook.com/sharer/sharer.php?u=https://ofertas.tecinovaservicos.com.br/`,
+        url: `https://www.facebook.com/sharer/sharer.php?u=${siteUrl}`,
       },
       {
         name: 'Twitter',
