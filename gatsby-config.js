@@ -3,7 +3,7 @@ require('dotenv').config()
 /* eslint-disable @typescript-eslint/camelcase */
 module.exports = {
   siteMetadata: {
-    title: 'OFERTAS',
+    title: 'Online Ofertas',
     titleTemplate: ' %s ',
     description: '',
     author: 'tecinova',
@@ -51,8 +51,8 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `OFERTAS`,
-        short_name: `OFERTAS`,
+        name: `Online Ofertas`,
+        short_name: `Online Ofertas`,
         start_url: `/`,
         background_color: `#E53E3E`,
         theme_color: `#E53E3E`,
