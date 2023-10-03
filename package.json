@@ -46,6 +46,11 @@
     "prettier": "^2.0.5",
     "tailwindcss": "^1.4.4"
   },
+
+  "engines": {
+  "node": "16.x"
+}
+  
   "repository": {
     "type": "git",
     "url": "https://github.com/tengkuhafidz/WebSheets-Listing-Page/"
