@@ -50,7 +50,10 @@
   "engines": {
   "node": "16.x"
 }
-  
+
+"scripts": {
+  "postinstall": "npx browserslist@latest --update-db"
+}
   "repository": {
     "type": "git",
     "url": "https://github.com/tengkuhafidz/WebSheets-Listing-Page/"
